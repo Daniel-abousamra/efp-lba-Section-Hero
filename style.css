@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+
+.hero{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("/img/hero.jpg") no-repeat center center / cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.hero-content {
+    color: rgb(255, 255, 255);
+    max-width: 800px;
+}
+
+
+.hero-content h1{
+    font-size: 65px;
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-family: 'Dela Gothic One', cursive;
+    line-height: 1.2;
+}
+
+
+.hero-content h1 .text-gradient {
+   background: linear-gradient(90deg, #ff7a00 0%, #f80717 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+
+.cta-button {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  background: #ff7a00;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(171, 91, 17, 0.4);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #e76d00;
+  transform: translateY(-2px);
+}
